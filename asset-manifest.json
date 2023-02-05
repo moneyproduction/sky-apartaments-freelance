@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sky-apartaments-freelance/static/css/main.1148ce54.css",
+    "main.js": "/sky-apartaments-freelance/static/js/main.e57983e2.js",
+    "static/media/this-is-gif.gif": "/sky-apartaments-freelance/static/media/this-is-gif.45ef19ee54c2cbf87659.gif",
+    "static/media/sea-blue.svg": "/sky-apartaments-freelance/static/media/sea-blue.eaea3de1fba953918752bf6d3f12ade4.svg",
+    "static/media/sky-blue.svg": "/sky-apartaments-freelance/static/media/sky-blue.475faf41ffb0c5ecab1e6feb706396cc.svg",
+    "index.html": "/sky-apartaments-freelance/index.html",
+    "main.1148ce54.css.map": "/sky-apartaments-freelance/static/css/main.1148ce54.css.map",
+    "main.e57983e2.js.map": "/sky-apartaments-freelance/static/js/main.e57983e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1148ce54.css",
+    "static/js/main.e57983e2.js"
+  ]
+}
