@@ -1,0 +1,118 @@
+.apartaments-apartamentsblock {
+  text-align: center;
+  margin: auto;
+  letter-spacing: 5px;
+  margin-top: 180px;
+  img {
+    display: flex;
+    margin: auto;
+  }
+  h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .titleSky {
+    &:hover {
+      transform: translate(-10px);
+    }
+    @media (max-width: 420px) {
+      width: 70px;
+      display: none;
+    }
+  }
+  .titleSea {
+    &:hover {
+      transform: translate(10px);
+    }
+    @media (max-width: 420px) {
+      display: none;
+    }
+  }
+}
+.apartamentsblock-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 5px;
+  @media (max-width: 990px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  p {
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    @media (max-width: 990px) {
+      text-align: center;
+    }
+  }
+  div {
+    display: inline-block;
+    overflow: hidden;
+    &:nth-child(2n) {
+      margin-top: 50px;
+      text-align: right;
+      margin-right: 40px;
+      @media (max-width: 990px) {
+        margin-top: 1px;
+        margin-right: 0px;
+        margin: auto;
+      }
+    }
+    &:nth-child(2n - 1) {
+      text-align: left;
+      margin-left: 40px;
+      @media (max-width: 990px) {
+        margin-top: 1px;
+        margin-left: 1px;
+      }
+    }
+    img {
+      max-width: 100%;
+      opacity: 0.5;
+      cursor: pointer;
+      transition: 1s;
+      display: block;
+      height: 600px;
+      width: 925px;
+      @media (max-width: 1670px) {
+        height: 500px;
+      }
+      @media (max-width: 1490px) {
+        height: 450px;
+      }
+      @media (max-width: 1290px) {
+        height: 400px;
+      }
+      @media (max-width: 1170px) {
+        height: 350px;
+      }
+      @media (max-width: 1050px) {
+        height: 300px;
+      }
+      @media (max-width: 990px) {
+        width: 850px;
+        height: 650px;
+        margin: auto;
+        opacity: 1;
+      }
+      @media (max-width: 900px) {
+        width: 650px;
+        height: 450px;
+        margin: auto;
+        opacity: 1;
+      }
+      @media (max-width: 520px) {
+        width: 450px;
+        height: 250px;
+        margin: auto;
+        opacity: 1;
+      }
+      &:hover {
+        opacity: 1;
+        transform: scale(1.2);
+      }
+    }
+  }
+}

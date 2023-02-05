@@ -1,0 +1,106 @@
+.apartments-full {
+  margin-top: 20px;
+  @media (max-width: 500px) {
+  }
+}
+
+.apartments-full-content {
+  .img-title {
+    margin-top: 80px;
+    @media (max-width: 1020px) {
+      display: none;
+    }
+  }
+
+  letter-spacing: 3px;
+  width: 500px;
+  margin: auto;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 1530px) {
+    margin-left: 100px;
+  }
+  @media (max-width: 1200px) {
+    margin-left: 50px;
+  }
+  @media (max-width: 1150px) {
+    margin-left: 0px;
+    padding: 10px;
+  }
+  @media (max-width: 1020px) {
+    margin-left: 0px;
+    padding: 10px;
+    display: block;
+  }
+
+  .social-booking {
+    margin-top: 20px;
+    width: 500px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 550;
+    @media (max-width: 500px) {
+      letter-spacing: 2px;
+    }
+  }
+  .social-olx {
+    text-decoration: underline;
+    margin-top: 5px;
+    cursor: pointer;
+    font-weight: 550;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  span {
+    font-weight: 550;
+   
+  }
+  p {
+    width: 700px;
+    font-size: 20px;
+    margin-left: 150px;
+    @media (max-width: 870px) {
+      width: 600px;
+    }
+    @media (max-width: 765px) {
+      width: 500px;
+    }
+    @media (max-width: 670px) {
+      width: 400px;
+      margin-left: 100px;
+      margin-top: 30px;
+    }
+    @media (max-width: 620px) {
+      width: 400px;
+      margin-left: 50px;
+      margin-top: 30px;
+    }
+    @media (max-width: 570px) {
+      width: 400px;
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+    @media (max-width: 533px) {
+      width: 400px;
+      margin-left: 0px;
+      margin-top: 30px;
+    }
+    @media (max-width: 500px) {
+      width: 300px;
+      margin-left: 0px;
+      margin-top: 30px;
+    }
+  }
+  .time {
+    margin-top: 20px;
+    width: auto;
+  }
+  .card {
+    margin-top: 20px;
+  }
+  .reserve {
+    margin-top: 20px;
+  }
+}
